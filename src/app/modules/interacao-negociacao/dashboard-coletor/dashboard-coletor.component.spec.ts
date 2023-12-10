@@ -6,10 +6,12 @@ describe('DashboardColetorComponent', () => {
   let component: DashboardColetorComponent;
   let fixture: ComponentFixture<DashboardColetorComponent>;
 
-  beforeEach(() => {
-    TestBed.configureTestingModule({
-      declarations: [DashboardColetorComponent]
-    });
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [ DashboardColetorComponent ]
+    })
+    .compileComponents();
+
     fixture = TestBed.createComponent(DashboardColetorComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

@@ -6,10 +6,12 @@ describe('RegistroNegociacaoComponent', () => {
   let component: RegistroNegociacaoComponent;
   let fixture: ComponentFixture<RegistroNegociacaoComponent>;
 
-  beforeEach(() => {
-    TestBed.configureTestingModule({
-      declarations: [RegistroNegociacaoComponent]
-    });
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [ RegistroNegociacaoComponent ]
+    })
+    .compileComponents();
+
     fixture = TestBed.createComponent(RegistroNegociacaoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

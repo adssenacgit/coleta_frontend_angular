@@ -1,0 +1,86 @@
+#desempenho-semanal{
+    width: 450px;
+    height: 500px;
+    background-color:#A9C685;  
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#titulo-data{
+    width: 450px;
+}
+
+#titulo-grafico{
+    width: 450px;
+}
+
+#quanto-gastei{
+    display: flex;
+    align-items: center;
+}
+
+#quanto-recebi{
+    display: flex;
+    align-items: center;
+}
+
+#movimentacao-financeira{
+    background-color: #f4f1e9;
+    width: 425px;
+    margin-top: 5px;
+    border-radius: 3px;
+    height: 50px;
+    display: flex;
+}
+
+#grafico-coletas{
+    background-color: #f4f1e9;
+    width: 425px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+
+.separacao-de-conteudo{
+    margin: 5px;
+}
+
+#titulo-card{
+    padding-left: 10px;
+    padding-top: 10px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: 500;
+}
+
+#titulo-card2{
+    padding-left: 10px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:smaller;
+    font-weight: 500; 
+}
+
+#texto-comum2{
+    padding-left: 10px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:smaller;
+    font-weight: 450;
+}
+
+.valores-descarte{
+    width: 100px;
+    height: 20px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 3px;
+}

@@ -1,0 +1,22 @@
+<div class="navbar">
+    <div class="user-info">
+        <img src="assets/imagens/user_photo.png" alt="User Photo" class="user-photo">
+        <div class="user-details">
+            <div id="titulo-card">{{ username }}</div>
+            <div id="titulo-card">Avaliação: {{ rating }}</div>
+        </div>
+    </div>
+    <div class="navbar-content">
+        <div class="button-flex-container">
+            <button id="navbotton" (click)="direcionandoMapaDeColetas()">Mapa de coletas</button>
+            <button id="navbotton" (click)="direcionandoPerfil()">Perfil</button>
+        </div>
+        <div class="icon-flex-container">
+            <button class="icon">🔔</button>
+            <button class="icon">💬</button>
+        </div>
+    </div>
+</div>
+
+<!--<p id="titulo-card">Histórico de coletas</p>-->
+

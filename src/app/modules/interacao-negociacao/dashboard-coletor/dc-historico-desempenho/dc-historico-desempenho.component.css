@@ -1,0 +1,61 @@
+/*CSS - Coletas Agendadas: início.*/
+#historico-desempenho{
+    width: 450px;
+    height: 500px;
+    background-color: #A9C685;  
+    border-radius: 5px;
+}
+
+/*Textos - Início:*/
+#titulo-card{
+    padding-left: 10px;
+    padding-top: 10px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: 500;
+} /*adicionar o contador com o typescript - o contador deve estar associado às coletas agendadas*/
+
+#atributos-coleta{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: smaller;
+    font-weight: 500;
+}
+
+#valores-coleta{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:smaller;
+    font-weight: 450;
+}
+/*Textos - Fim!*/
+
+#descricao{
+    margin-left: 5px;
+    width: 400px;
+}
+
+.lista-de-coletas{
+    background-color: #f4f1e9;
+    border: #A9C685;
+    max-height: 450px;
+    overflow: scroll;
+    margin: 10px 10px 10px 10px;
+}
+
+.coleta-evento{
+    margin: 5px 5px 0px 5px;
+    display: flex;
+    background-color: #f4f1e9;
+    width: 400px;
+    height: 80px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    border-color: #A9C685;
+    border-style:ridge;
+    border-width: 1px;    
+}
+
+/*CSS - Coletas Agendadas: fim!*/

@@ -1,0 +1,83 @@
+/* Estilos gerais do navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #A9C685;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 25px;
+    height: 90px;
+}
+
+/* Estilo para o container flexível */
+.button-flex-container {
+    width: 225px;
+    display: flex;
+    justify-content: space-between; /* Espaça os botões igualmente no container */
+  }
+  
+
+/* Estilo do nome e avaliação do usuário à direita da foto */
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo da foto do usuário */
+.user-photo {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    padding-right: 15px; /* Espaçamento entre a foto e o nome/avaliação */
+}
+
+.user-details {
+    text-align: left;
+}
+
+/* Estilos do conteúdo à direita do navbar */
+.navbar-content {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo base para um botão */
+#navbotton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #2B463C; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto no botão */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Estilo quando o mouse está sobre o botão */
+  #navbotton:hover {
+    background-color: #F4F1E9; /* Cor de fundo alterada no hover */
+  }
+  
+
+/* Estilo dos ícones de alertas e chat */
+.icon {
+    font-size: 24px;
+    color: #fff;
+    margin-left: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #A9C685;
+}
+
+
+#titulo-card{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:medium;
+    font-weight: 450;
+    color: black;
+}
+

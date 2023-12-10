@@ -6,10 +6,12 @@ describe('DashboardDescartadorComponent', () => {
   let component: DashboardDescartadorComponent;
   let fixture: ComponentFixture<DashboardDescartadorComponent>;
 
-  beforeEach(() => {
-    TestBed.configureTestingModule({
-      declarations: [DashboardDescartadorComponent]
-    });
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [ DashboardDescartadorComponent ]
+    })
+    .compileComponents();
+
     fixture = TestBed.createComponent(DashboardDescartadorComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

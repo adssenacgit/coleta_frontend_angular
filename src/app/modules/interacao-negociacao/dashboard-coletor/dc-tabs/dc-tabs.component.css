@@ -1,0 +1,74 @@
+.tabs {
+    display: flex;
+    border-radius: none;
+    overflow: hidden;
+  }
+  
+  .tab {
+    cursor: pointer;
+    padding: 0px 15px 0px 15px;
+    /*background-color: #ffffff; /* Cor de fundo da guia */
+    border: none; /* Remover a borda */
+    margin-right: 0;
+    position: relative;
+  }
+  
+  .tab:first-child {
+    border-radius: 0 0 0 0;
+  }
+  
+  .tab:last-child {
+    border-radius: 0 0 0 0;
+  }
+  
+  .tab:hover {
+    background-color: #F4F1E9; /* Cor de fundo da guia ao passar o mouse */
+  }
+
+  .tab-content {
+    padding: 20px;
+    border: none;
+    display: none;
+    background-color: #F4F1E9;
+    height: 600px;
+  }
+  
+  .tab-content[style*="block"] {
+    display: block;
+  }
+  
+ 
+.tab.active {
+    border-bottom: 2px solid #3C6609; /* Aumentar a espessura e/ou ajustar a cor */
+    background-color: #F4F1E9;
+}
+  
+#titulo-tab {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+/*Conteúdo das Tabs*/
+.tab1 { 
+  display: flex;
+  padding-top: 50px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tab2 { 
+  display: flex;
+  padding-top: 50px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tab3 { 
+  display: flex;
+  padding-top: 50px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}

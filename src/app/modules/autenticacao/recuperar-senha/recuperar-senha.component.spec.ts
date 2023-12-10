@@ -6,10 +6,12 @@ describe('RecuperarSenhaComponent', () => {
   let component: RecuperarSenhaComponent;
   let fixture: ComponentFixture<RecuperarSenhaComponent>;
 
-  beforeEach(() => {
-    TestBed.configureTestingModule({
-      declarations: [RecuperarSenhaComponent]
-    });
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [ RecuperarSenhaComponent ]
+    })
+    .compileComponents();
+
     fixture = TestBed.createComponent(RecuperarSenhaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

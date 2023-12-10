@@ -6,10 +6,12 @@ describe('MapaComponent', () => {
   let component: MapaComponent;
   let fixture: ComponentFixture<MapaComponent>;
 
-  beforeEach(() => {
-    TestBed.configureTestingModule({
-      declarations: [MapaComponent]
-    });
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [ MapaComponent ]
+    })
+    .compileComponents();
+
     fixture = TestBed.createComponent(MapaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

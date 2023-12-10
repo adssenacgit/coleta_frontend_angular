@@ -1,0 +1,16 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4F1E9;
+    color: #fff;
+    margin-top: 25px;
+    height: 75px;
+}
+
+.logo-foter {
+    width: 158px;
+    height: 70px;
+    border-radius: 50%;
+    padding-right: 15px; /* Espaçamento entre a foto e o nome/avaliação */
+}

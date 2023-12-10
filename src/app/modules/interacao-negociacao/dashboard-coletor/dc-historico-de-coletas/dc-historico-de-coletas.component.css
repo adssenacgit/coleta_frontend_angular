@@ -1,0 +1,94 @@
+/*CSS - Coletas Agendadas: início.*/
+#historico-coletas{
+    width: 900px;
+    height: 500px;
+    background-color: #A9C685;  
+    border-radius: 5px;
+}
+
+/*Textos - Início:*/
+#titulo-card{
+    padding-left: 10px;
+    padding-top: 10px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: 500;
+} /*adicionar o contador com o typescript - o contador deve estar associado às coletas agendadas*/
+
+#atributos-coleta{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: smaller;
+    font-weight: 500;
+}
+
+#valores-coleta{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:smaller;
+    font-weight: 450;
+}
+
+#texto-comum2{
+    padding-left: 10px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:smaller;
+    font-weight: 450;
+}
+/*Textos - Fim!*/
+
+#descricao{
+    margin-left: 5px;
+    width: 100px;
+    display: flex;
+}
+
+.lista-de-coletas{
+    background-color: #f4f1e9;
+    border: #A9C685;
+    max-height: 395px;
+    overflow: scroll;
+    margin: 10px 10px 10px 10px;
+}
+
+.coleta-evento{
+    margin: 5px 5px 0px 5px;
+    background-color: #f4f1e9;
+    width: 830px;
+    height: 80px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    border-color: #A9C685;
+    border-style:ridge;
+    border-width: 1px;    
+}
+
+.padrao1{
+    cursor: pointer;
+    border-radius: 3px;
+    background-color:#f4f1e9;
+    border: none;
+    height: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: small;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.padrao1:hover{
+    background-color: #3c6609;
+}
+
+.botoes-filtro{
+    display: flex;
+    width: 500px;
+    height: 35px;
+    align-items: center;
+    margin-left: 10px;
+}
+
+/*CSS - Coletas Agendadas: fim!*/
